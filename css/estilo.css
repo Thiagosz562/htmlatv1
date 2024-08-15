@@ -1,0 +1,96 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Estilos personalizados para cada página */
+
+/* Página Home */
+body.home {
+    background-color: #d4e157;
+}
+
+.home header {
+    background-image: url('../imagens/.jpg');
+}
+
+/* Página Sobre */
+body.sobre {
+    background-color: #64b5f6;
+}
+
+.sobre header {
+    background-image: url('../imagens/transferir\ \(3\).jpeg');
+}
+
+/* Página Serviços */
+body.servicos {
+    background-color: #ffb74d;
+}
+
+.servicos header {
+    background-image: url('../imagens/.jpg');
+}
+
+/* Página Contato */
+body.contato {
+    background-color: #ba68c8;
+}
+
+.contato header {
+    background-image: url('../imagens/.jpg');
+}
